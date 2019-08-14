@@ -1,6 +1,4 @@
 const cookieSession = require('cookie-session');
-const warnings = require('../constants/warnings');
-
 
 const serverSessionSecret = () => {
   if (!process.env.SERVER_SESSION_SECRET ||
